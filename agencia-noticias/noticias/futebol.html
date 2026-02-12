@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol - Agência Escolar</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container-noticia {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        :root {
+            --cor-principal: #2c3e50;
+            --cor-secundaria: #3498db;
+            --cor-destaque: #e74c3c;
+        }
+        
+        h1, h2, h3, h4 {
+            color: var(--cor-principal);
+        }
+        
+        .tag {
+            display: inline-block;
+            background: var(--cor-destaque);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .imagem-noticia {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .botao-voltar {
+            display: inline-block;
+            background: var(--cor-secundaria);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 30px;
+            transition: background 0.3s;
+        }
+        
+        .botao-voltar:hover {
+            opacity: 0.9;
+        }
+        
+        .data-noticia {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .lead {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--cor-principal);
+            margin-bottom: 20px;
+            border-left: 4px solid var(--cor-destaque);
+            padding-left: 20px;
+        }
+        
+        .rodape-noticia {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+        
+        .ficha-jogo {
+            background: #1e2b3c;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .ficha-jogo h3 {
+            color: white;
+            margin-top: 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-noticia">
+        <span class="tag">⚽ ESPORTES</span>
+        
+        <h1 style="font-size: 2rem; margin-bottom: 10px;">Time da escola está na final do campeonato estudantil</h1>
+        
+        <div class="data-noticia">
+            📅 8 de março de 2026 | 👥 Por: Bruno Costa e Ana Silva
+        </div>
+        
+        <img src="../imagens/futebol.jpg" alt="Time de futebol" class="imagem-noticia">
+        <p style="font-size: 0.9rem; color: #666; margin-top: 5px; text-align: center;">
+            Time comemora gol da vitória nos acréscimos (Foto: Daniel Santos)
+        </p>
+        
+        <div class="lead">
+            Em uma partida emocionante decidida nos acréscimos do segundo tempo, o time de futebol da escola 
+            venceu o Colégio São Paulo por 3 a 2 e garantiu vaga inédita na final do Campeonato Estudantil 
+            Metropolitano, que acontece no próximo dia 22 de março no estádio municipal.
+        </div>
+        
+        <p>
+            O jogo foi um verdadeiro teste de superação para a equipe. Depois de sair perdendo por 2 a 0 
+            ainda no primeiro tempo, os alunos mostraram garra e conseguiram empatar no segundo tempo. 
+            Quando tudo parecia caminhar para a prorrogação, o atacante Pedro Henrique, capitão do time, 
+            marcou de cabeça aos 49 minutos, provocando a explosão da torcida.
+        </p>
+        
+        <p>
+            <em>"Nunca duvidei desse time. Nós treinamos muito, a gente sabia que era capaz. Esse gol 
+            é dedicado a todos os alunos que vieram torcer e acreditaram na gente até o fim"</em>, 
+            disse o capitão emocionado após a partida.
+        </p>
+        
+        <div class="ficha-jogo">
+            <h3>📋 FICHA DA PARTIDA</h3>
+            <p><strong>Competição:</strong> Campeonato Estudantil Metropolitano - Semifinal</p>
+            <p><strong>Data:</strong> 08/03/2026</p>
+            <p><strong>Local:</strong> Estádio Municipal</p>
+            <p><strong>Público:</strong> 1.200 torcedores</p>
+            <p><strong>Placar:</strong> Escola Técnica 3 x 2 Colégio São Paulo</p>
+            <p><strong>Gols:</strong> João (2), Pedro (1) | Carlos (1), Rafael (1)</p>
+        </div>
+        
+        <p>
+            A final será contra o atual bicampeão, Colégio Dom Bosco, que venceu sua semifinal por 2 a 0. 
+            Será a primeira vez que a escola chega a uma decisão do campeonato, que está em sua 15ª edição.
+        </p>
+        
+        <p>
+            O técnico Paulo Roberto comemorou a classificação, mas já projeta a decisão: 
+            <em>"Sabemos que será um jogo duríssimo. O Dom Bosco tem uma equipe muito forte, 
+            mas futebol se joga dentro das quatro linhas. Vamos nos preparar ao máximo para buscar esse título inédito."</em>
+        </p>
+        
+        <div style="background: #fef5e7; padding: 20px; border-radius: 8px; margin-top: 30px;">
+            <h3 style="margin-top: 0; color: #f39c12;">🎟️ Ingressos para a final</h3>
+            <p style="margin-bottom: 0;">
+                Os ingressos para a grande final começam a ser vendidos na próxima segunda-feira (15) 
+                na secretaria da escola. Alunos e servidores têm 50% de desconto. A diretoria já está 
+                organizando uma caravana para torcer pelo time!
+            </p>
+        </div>
+        
+        <div class="rodape-noticia">
+            <a href="../index.html" class="botao-voltar">← Voltar para página inicial</a>
+        </div>
+    </div>
+</body>
+</html>

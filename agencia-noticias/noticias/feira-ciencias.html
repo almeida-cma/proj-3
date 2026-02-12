@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira de Ciências - Agência Escolar</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container-noticia {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        :root {
+            --cor-principal: #2c3e50;
+            --cor-secundaria: #3498db;
+            --cor-destaque: #e74c3c;
+        }
+        
+        h1, h2, h3, h4 {
+            color: var(--cor-principal);
+        }
+        
+        .tag {
+            display: inline-block;
+            background: var(--cor-destaque);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .imagem-noticia {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .botao-voltar {
+            display: inline-block;
+            background: var(--cor-secundaria);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 30px;
+            transition: background 0.3s;
+        }
+        
+        .botao-voltar:hover {
+            opacity: 0.9;
+        }
+        
+        .data-noticia {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .lead {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--cor-principal);
+            margin-bottom: 20px;
+            border-left: 4px solid var(--cor-destaque);
+            padding-left: 20px;
+        }
+        
+        .rodape-noticia {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+        
+        .destaque {
+            background: #f0f9f4;
+            border-left: 4px solid #2ecc71;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-noticia">
+        <span class="tag">🔬 CIÊNCIAS</span>
+        
+        <h1 style="font-size: 2rem; margin-bottom: 10px;">Escola vence Feira Regional com projeto sustentável</h1>
+        
+        <div class="data-noticia">
+            📅 10 de março de 2026 | 👥 Por: Carla Oliveira e Daniel Santos
+        </div>
+        
+        <img src="../imagens/feira-ciencias.jpg" alt="Feira de Ciências" class="imagem-noticia">
+        <p style="font-size: 0.9rem; color: #666; margin-top: 5px; text-align: center;">
+            Alunos apresentam projeto de energia solar durante feira (Foto: Daniel Santos)
+        </p>
+        
+        <div class="lead">
+            Estudantes do 3º ano do ensino médio conquistaram o primeiro lugar na Feira Regional de Ciências 
+            com o projeto "Energia Solar de Baixo Custo", desenvolvido ao longo de seis meses com materiais 
+            recicláveis e tecnologia acessível, garantindo vaga para a etapa estadual da competição.
+        </div>
+        
+        <p>
+            O projeto vencedor consiste em um sistema de captação de energia solar utilizando painéis 
+            fotovoltaicos recondicionados e componentes eletrônicos de baixo custo. A ideia surgiu da 
+            necessidade de levar energia limpa e acessível para comunidades carentes da região.
+        </p>
+        
+        <p>
+            A professora orientadora, Dra. Patrícia Lima, explicou o diferencial do trabalho: 
+            <em>"Não é apenas um projeto tecnicamente competente, mas também socialmente relevante. 
+            Os alunos desenvolveram um manual de montagem e pretendem oferecer oficinas gratuitas 
+            para a comunidade."</em>
+        </p>
+        
+        <div class="destaque">
+            <h3 style="margin-top: 0; color: #27ae60;">🏆 Prêmios conquistados:</h3>
+            <ul style="margin-bottom: 0;">
+                <li>🥇 1º lugar na categoria Inovação Tecnológica</li>
+                <li>💡 Prêmio Destaque em Sustentabilidade</li>
+                <li>🎓 Bolsa de Iniciação Científica Júnior (CNPq)</li>
+                <li>🚀 Credencial para a Feira Estadual de Ciências</li>
+            </ul>
+        </div>
+        
+        <p>
+            A Feira Estadual de Ciências acontecerá em junho, na capital, e reunirá os melhores projetos 
+            de todo o estado. A escola já está mobilizando uma campanha de arrecadação para custear as 
+            despesas da viagem da equipe.
+        </p>
+        
+        <p>
+            Os alunos responsáveis pelo projeto são: João Vitor Souza, Maria Clara Mendes e Lucas Ferreira, 
+            todos do 3º ano do ensino médio integrado ao curso técnico.
+        </p>
+        
+        <div style="background: #e8f4fc; padding: 20px; border-radius: 8px; margin-top: 30px;">
+            <h3 style="margin-top: 0; color: var(--cor-secundaria);">📊 Resultados do projeto:</h3>
+            <p>☀️ Captação: 150W por painel</p>
+            <p>💰 Custo: R$ 250,00 (70% mais barato que sistemas comerciais)</p>
+            <p>🏠 Beneficiados: Estimativa de 50 famílias no primeiro ano</p>
+        </div>
+        
+        <div class="rodape-noticia">
+            <a href="../index.html" class="botao-voltar">← Voltar para página inicial</a>
+        </div>
+    </div>
+</body>
+</html>
