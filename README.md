@@ -1,173 +1,97 @@
-================================================
-📘 TEMA 03 - ATIVIDADE MÃO NA MASSA
-================================================
-Agência de Jornalismo Web
-Template Básico com Páginas de Notícias
+# 📘 TEMA 03 – ATIVIDADE MÃO NA MASSA  
+## Agência de Jornalismo Web  
+**Template básico com páginas de notícias**
 
-📁 ESTRUTURA DE PASTAS (OBRIGATÓRIA!):
-----------------------------------------
-📂 agencia-noticias/
-   │
-   ├── 📄 index.html              (página principal - EDITAR)
-   │
-   ├── 📁 imagens/                (imagens das notícias)
-   │   ├── formatura.jpg
-   │   ├── feira-ciencias.jpg
-   │   └── futebol.jpg
-   │
-   ├── 📁 noticias/               (páginas individuais - NÃO PRECISA EDITAR)
-   │   ├── formatura.html
-   │   ├── feira-ciencias.html
-   │   └── futebol.html
-   │
-   └── 📄 LEIA-ME.txt            (este arquivo)
+---
 
-================================================
-🎯 OBJETIVO DA ATIVIDADE
-================================================
+## 📁 Estrutura de Pastas (OBRIGATÓRIA)
 
-Personalizar a página PRINCIPAL (index.html) para criar 
-a identidade visual da SUA agência de notícias!
+```
+agencia-noticias/
+│
+├── index.html              # Página principal (EDITAR)
+│
+├── imagens/                # Imagens das notícias
+│   ├── formatura.jpg
+│   ├── feira-ciencias.jpg
+│   └── futebol.jpg
+│
+├── noticias/               # Páginas individuais (NÃO PRECISA EDITAR)
+│   ├── formatura.html
+│   ├── feira-ciencias.html
+│   └── futebol.html
+│
+└── README.md               # Este arquivo
+```
 
-⏰ TEMPO: 30-40 minutos
-👥 GRUPOS: 3-4 pessoas
-📦 ENTREGA: Site completo publicado no GitHub Pages
+⚠️ **A estrutura acima deve ser mantida exatamente como está.**
 
-================================================
-🔧 PASSO A PASSO (FAÇA NA ORDEM!)
-================================================
+---
 
-PASSO 1 - BAIXAR AS IMAGENS (3 minutos)
-----------------------------------------
-1. Crie a pasta 📁 "imagens" dentro da pasta do projeto
-2. Clique nos links abaixo e salve as imagens na pasta:
+## 🎯 Objetivo da Atividade
 
-   🎓 formatura.jpg     → https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=400&fit=crop
-   🔬 feira-ciencias.jpg → https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop
-   ⚽ futebol.jpg        → https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=800&h=400&fit=crop
+Personalizar a **página principal (`index.html`)** para criar a identidade visual da sua agência de notícias, simulando um site jornalístico real.
 
-PASSO 2 - EDITAR O ARQUIVO index.html (20 minutos)
---------------------------------------------------
-1. Abra o arquivo index.html no VSCode
-2. Procure por "🔴 ATENÇÃO" (ctrl + f) - TODAS as edições são aqui!
+**⏰ Tempo estimado:** 30–40 minutos  
+**👥 Grupos:** 3–4 pessoas  
+**📦 Entrega:** Site completo publicado no **GitHub Pages**
 
-   🔴 LOCAL 1: CORES (linha ~70)
-        Altere os valores das 3 cores:
-        --cor-principal:   #2c3e50;   → SUA COR PRINCIPAL
-        --cor-secundaria:  #3498db;   → SUA COR SECUNDÁRIA
-        --cor-destaque:    #e74c3c;   → SUA COR DE DESTAQUE
+---
 
-   🔴 LOCAL 2: FONTES (linha ~90)
-        Altere as 2 fontes:
-        body { font-family: 'Segoe UI', Arial, sans-serif; }  → FONTE DO CORPO
-        h1, h2, h3 { font-family: 'Segoe UI', Arial, ...; }  → FONTE DOS TÍTULOS
+## 🔧 Passo a Passo
 
-   🔴 LOCAL 3: CABEÇALHO (linha ~205)
-        Altere:
-        <h1>AGÊNCIA ESCOLAR</h1>              → Nome da sua agência
-        <p>Notícias fresquinhas...</p>        → Slogan da sua agência
+### PASSO 1 – Baixar as imagens
+- formatura.jpg  
+  https://www.pexels.com/pt-br/foto/festivo-animado-presente-dom-7713351/
+- feira-ciencias.jpg  
+  https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop
+- futebol.jpg  
+  https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=800&h=400&fit=crop
 
-   🔴 LOCAL 4: NOTÍCIA 1 (linha ~235)
-        - Categoria (tag)
-        - Título
-        - Texto resumo
-        - Imagem (src="imagens/formatura.jpg")
+---
 
-   🔴 LOCAL 5: NOTÍCIA 2 (linha ~265)
-        - Categoria (tag)
-        - Título
-        - Texto resumo
-        - Imagem (src="imagens/feira-ciencias.jpg")
+### PASSO 2 – Editar o index.html
 
-   🔴 LOCAL 6: NOTÍCIA 3 (linha ~295)
-        - Categoria (tag)
-        - Título
-        - Texto resumo
-        - Imagem (src="imagens/futebol.jpg")
+Procure por **🔴 ATENÇÃO** no arquivo e edite:
 
-   🔴 LOCAL 7: EQUIPE (linha ~325)
-        - Nomes reais do seu grupo
-        - Funções (Editor, Webmaster, Repórter, Fotógrafo)
-        - Iniciais para os avatares
+- Cores principais
+- Fontes
+- Nome e slogan da agência
+- Conteúdo das 3 notícias
+- Equipe
+- Rodapé
 
-   🔴 LOCAL 8: RODAPÉ (linha ~375)
-        - Nome da agência
-        - Data de publicação
+---
 
-PASSO 3 - VISUALIZAR (2 minutos)
---------------------------------
-1. Salve o arquivo (ctrl + s)
-2. Abra o index.html no navegador
-3. Clique nos botões "Ler notícia completa" para ver as páginas prontas!
-4. Volte para a página principal
+### PASSO 3 – Visualizar
 
-PASSO 4 - PUBLICAR NO GITHUB PAGES (10 minutos)
------------------------------------------------
-1. Crie um repositório público no GitHub chamado: agencia-noticias
-2. Faça upload de TODA a pasta (mantenha a estrutura!)
-3. Ative o GitHub Pages (Settings → Pages → main branch → /root → Save)
-4. Aguarde 2 minutos e acesse: https://SEUUSUARIO.github.io/agencia-noticias/
-5. Compartilhe o link no chat da turma!
+Abra o arquivo `index.html` no navegador e teste os links das notícias.
 
-================================================
-✅ CHECKLIST FINAL (NÃO ESQUEÇA!)
-================================================
+---
 
-☐ Criei a pasta 📁 imagens e coloquei as 3 fotos
-☐ Altere as 3 cores (principal, secundária, destaque)
-☐ Alterei as 2 fontes (títulos e corpo)
-☐ Altereio nome da agência e slogan
-☐ Editei as 3 notícias (categoria, título, texto)
-☐ As imagens aparecem corretamente no site
-☐ Coloquei os nomes reais da minha equipe
-☐ O site abre no navegador
-☐ Publiquei no GitHub Pages
-☐ Compartilhei o link
+### PASSO 4 – Publicar no GitHub Pages
 
-================================================
-🎨 SUGESTÕES DE CORES (copie e cole)
-================================================
+1. Crie um repositório público chamado `agencia-noticias`
+2. Envie todos os arquivos
+3. Vá em **Settings → Pages**
+4. Selecione `main` / `/root`
+5. Acesse:  
+   https://SEUUSUARIO.github.io/agencia-noticias/
 
-🔵 Azul Marinho: #1a2639 (sério, profissional)
-🔵 Azul Claro:   #3498db (tecnologia, confiança)
-🟢 Verde:        #2ecc71 (natureza, saúde)
-🔴 Vermelho:     #e74c3c (urgência, esportes)
-🟡 Amarelo:      #f1c40f (criatividade, alegria)
-🟣 Roxo:         #9b59b6 (inovação, mistério)
-🟠 Laranja:      #f39c12 (entusiasmo, juventude)
-⚫ Cinza:        #34495e (elegância, seriedade)
+---
 
-================================================
-📝 SUGESTÕES DE FONTES (copie e cole)
-================================================
+## ✅ Checklist Final
 
-PARA TÍTULOS (personalidade):
-----------------------------
-'Poppins', sans-serif
-'Montserrat', sans-serif
-'Oswald', sans-serif
-'Playfair Display', serif
-'Times New Roman', serif
+- [ ] Estrutura correta
+- [ ] Cores alteradas
+- [ ] Fontes alteradas
+- [ ] Notícias editadas
+- [ ] Equipe inserida
+- [ ] GitHub Pages publicado
 
-PARA CORPO (legibilidade):
--------------------------
-'Open Sans', sans-serif
-'Roboto', sans-serif
-'Verdana', sans-serif
-'Arial', sans-serif
-'Georgia', serif
+---
 
-================================================
-🎯 ENTENDENDO OS LINKS
-================================================
+## 🔗 Estrutura de Navegação
 
-Os botões "Ler notícia completa" já estão configurados!
-
-📌 index.html                       → Página principal
-📌 noticias/formatura.html          → Página completa da notícia 1
-📌 noticias/feira-ciencias.html     → Página completa da notícia 2
-📌 noticias/futebol.html            → Página completa da notícia 3
-
-Isso mostra como um site de notícias REAL funciona:
-- Página inicial = resumo das notícias (cards)
-- Páginas internas = conteúdo completo
+- Página principal: `index.html`
+- Notícias completas: pasta `noticias/`
